@@ -1,3 +1,71 @@
+# Geepay Analytics WebApp
+
+Welcome to the Geepay Analytics WebApp, a fully functional and innovative analytics tool created for the hackathon by Geepay and David Herbert. This web application is built using React, providing a seamless and responsive user experience for analyzing data and gaining valuable insights.
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Technologies Used](#technologies-used)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Introduction
+
+The Geepay Analytics WebApp is designed to empower users with the ability to visualize and analyze data in a user-friendly manner. Whether you're a data scientist, business analyst, or just curious about the data, this application provides an intuitive interface to explore and interpret information effectively.
+
+## Features
+
+- **Data Visualization:** Interactive charts and graphs to visually represent data trends.
+- **User-Friendly Interface:** Intuitive design for a seamless user experience.
+- **Responsive Design:** Compatible with various devices for accessibility on the go.
+- **Export Functionality:** Download reports and visualizations for offline use.
+
+## Installation
+
+To get started with the Geepay Analytics WebApp, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Happy-huh/GeepayAnalyticsDashboard.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd analytics-dashboard
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+2. Open your web browser and visit [http://localhost:3000](http://localhost:3000).
+
+3. Explore the analytics dashboard and interact with the visualizations.
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **Chart.js:** Simple yet flexible JavaScript charting library.
+
+Thank you for using the Geepay Analytics WebApp! If you have any questions or feedback, feel free to reach out to the project maintainers. Happy analyzing!
+
+# More Info
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
