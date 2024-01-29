@@ -92,7 +92,7 @@
 }
 @media screen and (max-width: 850px) {
   .headercontainer {
-    width: 93%;
+    width: 104%;
   }
   .disappear {
     display: none;
@@ -103,5 +103,20 @@
   .logoutpopup {
     top: 3%;
     right: 10%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headercontainer {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .headercontainer {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .headercontainer {
+    width: 90%;
   }
 }

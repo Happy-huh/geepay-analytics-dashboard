@@ -31,7 +31,7 @@ function Home(props) {
 
   return (
     <>
-      <div>
+      <div style={{ overflowX: "hidden" }}>
         <Drawer />
         <div style={{ position: "relative", left: 61, width: "90%" }}>
           <div>
