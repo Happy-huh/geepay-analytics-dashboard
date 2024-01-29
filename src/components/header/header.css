@@ -14,10 +14,23 @@
   padding: 0px 2em 0px 3em;
   border: 1px solid gray;
 }
+.searchPopUp {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  padding: 0px 2em 0px 2em;
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
 .calender {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.calender p {
+  font-size: small;
 }
 .calender .bell {
   border: 1px solid black;

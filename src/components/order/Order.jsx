@@ -16,7 +16,7 @@ function Order(props) {
                 <p style={{width:'18.75%', flexBasis: 100, marginLeft: '7.5em'}}>Date</p>
                 <p style={{width:'18.75%', flexBasis: 100, marginLeft: 0}}>Ammount</p>
                 <p style={{width:'18.75%', flexBasis: 100, marginLeft: 0}}>Status</p>
-                <p style={{width:'18.75%', flexBasis: 100}}>Invoice</p>
+                <p style={{width:'18.75%', flexBasis: 100,  marginLeft: 10}}>Invoice</p>
             </div>
             <div className='orderTableBody'>
                 <div className='face'>
