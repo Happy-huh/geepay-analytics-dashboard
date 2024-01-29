@@ -1,0 +1,13 @@
+.platformContainer div {
+  display: flex;
+  justify-content: space-between;
+}
+.platformContainer div span {
+  color: gray;
+}
+
+/* @media screen and (max-width: 850px) {
+  .platformContainer {
+    flex-wrap: wrap;
+  }
+} */

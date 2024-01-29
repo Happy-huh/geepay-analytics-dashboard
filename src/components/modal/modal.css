@@ -1,0 +1,44 @@
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.modal .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(49, 49, 40, 0.8);
+}
+.modalContent {
+  width: 50%;
+  height: 40%;
+  background-color: white;
+  position: relative;
+  padding: 2em;
+  border-radius: 10px;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.printButton {
+  border: 0px;
+  background-color: aqua;
+  padding: 0.3em 1em;
+}
+
+@media screen and (max-width: 850px) {
+  .modal {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .modalContent {
+    width: 60%;
+  }
+}

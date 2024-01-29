@@ -1,0 +1,94 @@
+.headercontainer {
+  display: flex;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 106%; /*106*/
+}
+.search {
+  border-radius: 100px;
+  background-color: rgb(240, 240, 240);
+  height: 30px;
+  padding: 0px 2em 0px 3em;
+  border: 1px solid gray;
+}
+.calender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calender .bell {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1em;
+}
+.calender img {
+  padding: 1em;
+}
+.searchbtn {
+  position: relative;
+  left: 30px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 0px 1em 0px 3px;
+  height: 35px;
+  margin-top: 0.5em;
+}
+.mainPicture {
+  border-radius: 50%;
+  height: 90%;
+  display: block !important;
+}
+.person div {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+}
+.person .name {
+  font-size: small;
+  width: 120px;
+  overflow: hidden;
+}
+.person .email {
+  font-size: x-small;
+  width: 120px;
+  overflow: hidden;
+  color: rgb(92, 92, 92);
+}
+.logoutpopup {
+  position: absolute;
+  top: 7%;
+  right: 1%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+@media screen and (max-width: 850px) {
+  .headercontainer {
+    width: 93%;
+  }
+  .disappear {
+    display: none;
+  }
+  .searchbtn {
+    position: static;
+  }
+  .logoutpopup {
+    top: 3%;
+    right: 10%;
+  }
+}

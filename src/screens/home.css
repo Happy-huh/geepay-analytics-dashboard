@@ -1,0 +1,112 @@
+.platform {
+  background-color: white;
+  height: 250px;
+  overflow: scroll;
+  border-radius: 10px;
+  width: 95%;
+  flex: 1;
+  padding: 10px;
+  margin-top: 20px;
+}
+.platform::-webkit-scrollbar {
+  display: none;
+}
+.analyticsMessage {
+  position: absolute;
+  top: 0px;
+  width: 40%;
+  padding: 0px 0px 0.5em 0.5em;
+  right: inherit;
+  border-radius: 5px;
+  display: inline;
+}
+.colseButton {
+  background-color: rgb(241, 241, 241);
+  border: 0px;
+  padding: 3px 1em;
+  border-radius: 5px;
+}
+.chartTopValues {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+/*nnc
+
+
+nc*/
+.mainDivsContainer {
+  padding: 1em;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 103%;
+}
+.chartDiv {
+  width: 55%;
+  background-color: white;
+  border-radius: 10px;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-top: 0.5em;
+}
+.analyticsCardDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+  height: 110%;
+}
+.platformdiv {
+  width: 40%;
+  height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderDiv {
+  width: 59%;
+  height: 300px;
+}
+.graphpopup {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  background-color: white;
+  border-radius: 5px;
+  width: 10%;
+}
+@media screen and (max-width: 850px) {
+  .mainDivsContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .chartDiv {
+    width: 70%;
+  }
+  .analyticsCardDiv {
+    width: 80%;
+  }
+  .platformdiv {
+    width: 80%;
+  }
+  .orderDiv {
+    width: 80%;
+  }
+  .graphpopup {
+    width: 30%;
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chartTopValues {
+    width: 80%;
+  }
+  .analyticsMessage {
+    width: 70%;
+  }
+}
